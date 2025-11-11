@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Tech - CATRAYE Aaron | Expert Cybersécurité</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- ===== Sidebar ===== -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="profile-pic-wrapper">
+          <img src="images/aaron.jpg" alt="Photo de CATRAYE A@ron" class="profile-pic" />
+          <div class="status-indicator"></div>
+        </div>
+        <h2 class="profile-name">CATRAYE A@ron</h2>
+        <p class="profile-tagline">Futur Expert en Cybersécurité</p>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html"><span class="nav-icon">🏠</span><span class="nav-text">Accueil</span></a></li>
+          <li><a href="cv.html"><span class="nav-icon">📄</span><span class="nav-text">Mon CV</span></a></li>
+          <li><a href="portfolio.html"><span class="nav-icon">💼</span><span class="nav-text">Portfolio</span></a></li>
+          <li><a href="blog.html" class="active"><span class="nav-icon">✍️</span><span class="nav-text">Blog Tech</span></a></li>
+          <li><a href="projets.html"><span class="nav-icon">🚀</span><span class="nav-text">Mes Projets</span></a></li>
+          <li><a href="competences.html"><span class="nav-icon">⚡</span><span class="nav-text">Compétences</span></a></li>
+          <li><a href="exercices.html"><span class="nav-icon">📚</span><span class="nav-text">Exercices</span></a></li>
+          <li><a href="formulaire.html"><span class="nav-icon">📧</span><span class="nav-text">Contact</span></a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-social">
+        <a href="https://www.linkedin.com/in/aaron-catraye" target="_blank" class="social-link" title="LinkedIn">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
+        </a>
+        <a href="https://github.com/Aaronny0" target="_blank" class="social-link" title="GitHub">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="width: 20px; height: 20px;">
+        </a>
+        <a href="mailto:auristelcatraye@gmail.com" class="social-link" title="Email">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" alt="Gmail" style="width: 20px; height: 20px;">
+        </a>
+      </div>
+      <div class="sidebar-footer">
+        <p>&copy; 2025 - CATRAYE A@ron</p>
+        <p class="footer-sub">Tous droits réservés</p>
+      </div>
+    </aside>
+
+    <!-- ===== Contenu Principal ===== -->
+    <main class="main-content">
+      <div class="particles-bg"></div>
+      
+      <header class="content-header">
+        <div class="header-title">
+          <h1 class="gradient-text">Blog Tech</h1>
+          <p class="header-subtitle">Apprentissage • Découvertes • Partage</p>
+        </div>
+      </header>
+
+      <!-- Introduction -->
+      <section class="card glass-effect">
+        <h2 class="section-title">
+          <span class="title-icon">✍️</span>
+          Mon Journal d'Apprentissage
+        </h2>
+        <p style="font-size: 17px; color: var(--text-secondary); margin-bottom: 30px;">
+          Bienvenue sur mon blog tech ! Ici je partage mes découvertes, mes apprentissages 
+          et mes réflexions sur le monde de la cybersécurité et des réseaux. 
+          En tant qu'étudiant en <strong class="highlight">RMS</strong>, je documente mon parcours 
+          et mes expériences pour aider d'autres étudiants.
+        </p>
+      </section>
+
+      <!-- Articles Récents -->
+      <section class="card glass-effect">
+        <h2 class="section-title">
+          <span class="title-icon">📝</span>
+          Articles Récents
+        </h2>
+        
+        <div class="blog-grid">
+          <!-- Article 1 -->
+          <article class="blog-post glass-effect">
+            <div class="blog-image">
+              <div style="height: 200px; background: var(--gradient-cyber); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                🔐
+              </div>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-date">📅 15 Janvier 2025</span>
+                <span class="blog-category">Cybersécurité</span>
+              </div>
+              <h3 class="blog-title">Mes Premiers Pas avec Kali Linux</h3>
+              <p class="blog-excerpt">
+                Découverte de Kali Linux en cours de cybersécurité. Installation, 
+                premiers outils et impressions d'un étudiant débutant.
+              </p>
+              <div class="blog-tags">
+                <span class="tag">Kali Linux</span>
+                <span class="tag">Débutant</span>
+                <span class="tag">Outils</span>
+              </div>
+              <a href="#" class="blog-read-more">Lire la suite →</a>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="blog-post glass-effect">
+            <div class="blog-image">
+              <div style="height: 200px; background: var(--gradient-main); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                🌐
+              </div>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-date">📅 10 Janvier 2025</span>
+                <span class="blog-category">Réseaux</span>
+              </div>
+              <h3 class="blog-title">Configuration VLAN avec Packet Tracer</h3>
+              <p class="blog-excerpt">
+                Retour d'expérience sur mon premier TP de configuration VLAN. 
+                Les difficultés rencontrées et les solutions trouvées.
+              </p>
+              <div class="blog-tags">
+                <span class="tag">VLAN</span>
+                <span class="tag">Cisco</span>
+                <span class="tag">TP</span>
+              </div>
+              <a href="#" class="blog-read-more">Lire la suite →</a>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="blog-post glass-effect">
+            <div class="blog-image">
+              <div style="height: 200px; background: var(--gradient-sunset); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                💻
+              </div>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-date">📅 5 Janvier 2025</span>
+                <span class="blog-category">Développement</span>
+              </div>
+              <h3 class="blog-title">Créer son Premier Site Web</h3>
+              <p class="blog-excerpt">
+                Guide étudiant pour créer son portfolio web. HTML, CSS et 
+                conseils pour débuter dans le développement web.
+              </p>
+              <div class="blog-tags">
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">Portfolio</span>
+                <span class="tag">Guide</span>
+              </div>
+              <a href="#" class="blog-read-more">Lire la suite →</a>
+            </div>
+          </article>
+
+          <!-- Article 4 -->
+          <article class="blog-post glass-effect">
+            <div class="blog-image">
+              <div style="height: 200px; background: var(--gradient-green); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                🎓
+              </div>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-date">📅 28 Décembre 2024</span>
+                <span class="blog-category">Formation</span>
+              </div>
+              <h3 class="blog-title">Bilan de ma Première Année en RMS</h3>
+              <p class="blog-excerpt">
+                Retour sur ma première année d'études en Réseau, Mobilité et Sécurité. 
+                Apprentissages, défis et perspectives d'avenir.
+              </p>
+              <div class="blog-tags">
+                <span class="tag">Bilan</span>
+                <span class="tag">RMS</span>
+                <span class="tag">Études</span>
+              </div>
+              <a href="#" class="blog-read-more">Lire la suite →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Catégories -->
+      <section class="card glass-effect">
+        <h2 class="section-title">
+          <span class="title-icon">📂</span>
+          Catégories d'Articles
+        </h2>
+        
+        <div class="cv-grid">
+          <div class="info-category">
+            <div class="info-item" style="justify-content: center; flex-direction: column; text-align: center;">
+              <span class="info-icon" style="font-size: 48px; margin-bottom: 15px;">🔐</span>
+              <div class="info-details">
+                <span class="info-label">Cybersécurité</span>
+                <span class="info-value">Découvertes et apprentissages en sécurité informatique</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-category">
+            <div class="info-item" style="justify-content: center; flex-direction: column; text-align: center;">
+              <span class="info-icon" style="font-size: 48px; margin-bottom: 15px;">🌐</span>
+              <div class="info-details">
+                <span class="info-label">Réseaux</span>
+                <span class="info-value">Configuration et administration réseau</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-category">
+            <div class="info-item" style="justify-content: center; flex-direction: column; text-align: center;">
+              <span class="info-icon" style="font-size: 48px; margin-bottom: 15px;">💻</span>
+              <div class="info-details">
+                <span class="info-label">Développement</span>
+                <span class="info-value">Création de sites web et applications</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-category">
+            <div class="info-item" style="justify-content: center; flex-direction: column; text-align: center;">
+              <span class="info-icon" style="font-size: 48px; margin-bottom: 15px;">🎓</span>
+              <div class="info-details">
+                <span class="info-label">Formation</span>
+                <span class="info-value">Conseils et retours d'expérience étudiante</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="card glass-effect">
+        <h2 class="section-title">
+          <span class="title-icon">📧</span>
+          Rester Informé
+        </h2>
+        <p style="color: var(--text-secondary); margin-bottom: 25px; text-align: center;">
+          Suivez mes aventures d'étudiant en cybersécurité ! Nouveaux articles, 
+          découvertes et conseils directement dans votre boîte mail.
+        </p>
+        <div style="text-align: center;">
+          <a href="formulaire.html" class="cta-button primary-btn">
+            📧 Me Contacter pour Plus d'Infos
+          </a>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="card cta-final glass-effect">
+        <h2>Une Question ? Une Suggestion ?</h2>
+        <p>N'hésitez pas à me contacter si vous avez des questions sur mes articles ou des suggestions de sujets à traiter !</p>
+        <div class="cta-group">
+          <a href="formulaire.html" class="cta-button primary-btn">
+            📧 Me Contacter
+          </a>
+          <a href="portfolio.html" class="cta-button secondary-btn">
+            💼 Voir mon Portfolio
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

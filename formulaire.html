@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - CATRAYE Aaron</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- ===== Sidebar ===== -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="profile-pic-wrapper">
+                <img src="images/aaron.jpg" alt="Photo de CATRAYE Aaron" class="profile-pic">
+                <div class="status-indicator"></div>
+            </div>
+            <h2 class="profile-name">CATRAYE A@ron</h2>
+            <p class="profile-tagline">Futur Expert en Cybersécurité</p>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html"><span class="nav-icon">🏠</span><span class="nav-text">Accueil</span></a></li>
+                <li><a href="cv.html"><span class="nav-icon">📄</span><span class="nav-text">Mon CV</span></a></li>
+                <li><a href="portfolio.html"><span class="nav-icon">💼</span><span class="nav-text">Portfolio</span></a></li>
+                <li><a href="blog.html"><span class="nav-icon">✍️</span><span class="nav-text">Blog Tech</span></a></li>
+                <li><a href="projets.html"><span class="nav-icon">🚀</span><span class="nav-text">Mes Projets</span></a></li>
+                <li><a href="competences.html"><span class="nav-icon">⚡</span><span class="nav-text">Compétences</span></a></li>
+                <li><a href="exercices.html"><span class="nav-icon">📚</span><span class="nav-text">Exercices</span></a></li>
+                <li><a href="formulaire.html" class="active"><span class="nav-icon">📧</span><span class="nav-text">Contact</span></a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-social">
+            <a href="https://www.linkedin.com/in/aaron-catraye" target="_blank" class="social-link" title="LinkedIn">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
+            </a>
+            <a href="https://github.com/Aaronny0" target="_blank" class="social-link" title="GitHub">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="width: 20px; height: 20px;">
+            </a>
+            <a href="mailto:auristelcatraye@gmail.com" class="social-link" title="Email">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" alt="Gmail" style="width: 20px; height: 20px;">
+            </a>
+        </div>
+        <div class="sidebar-footer">
+            <p>&copy; 2025 - CATRAYE A@ron</p>
+            <p class="footer-sub">Tous droits réservés</p>
+        </div>
+    </aside>
+
+    <!-- ===== Contenu Principal ===== -->
+    <main class="main-content">
+        <div class="particles-bg"></div>
+        
+        <header class="content-header">
+            <h1 class="gradient-text">Contactez-moi</h1>
+        </header>
+
+        <section class="card glass-effect">
+            <h2 class="section-title">
+                <span class="title-icon">✉️</span>
+                Restons en Contact
+            </h2>
+            <p style="font-size: 17px; color: var(--text-secondary); margin-bottom: 30px;">
+                Vous avez un projet, une opportunité ou simplement une question ? N'hésitez pas à me contacter 
+                via ce formulaire. Je m'engage à vous répondre dans les plus brefs délais.
+            </p>
+        </section>
+
+        <!-- Informations de Contact Rapide -->
+        <div class="info-grid">
+            <div class="info-category">
+                <div class="info-item" style="justify-content: center; flex-direction: column; text-align: center;">
+                    <span class="info-icon" style="font-size: 48px; margin-bottom: 15px;">📱</span>
+                    <div class="info-details">
+                        <span class="info-label">Téléphone</span>
+                        <span class="info-value">+229 0197061706</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-category">
+                <div class="info-item" style="justify-content: center; flex-direction: column; text-align: center;">
+                    <span class="info-icon" style="font-size: 48px; margin-bottom: 15px;">📧</span>
+                    <div class="info-details">
+                        <span class="info-label">Email</span>
+                        <span class="info-value">
+                            <a href="mailto:auristelcatraye@gmail.com" class="info-link">auristelcatraye@gmail.com</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-category">
+                <div class="info-item" style="justify-content: center; flex-direction: column; text-align: center;">
+                    <span class="info-icon" style="font-size: 48px; margin-bottom: 15px;">📍</span>
+                    <div class="info-details">
+                        <span class="info-label">Localisation</span>
+                        <span class="info-value">Cotonou, Bénin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulaire de Contact -->
+        <section class="card glass-effect">
+            <h2 class="section-title">
+                <span class="title-icon">📝</span>
+                Formulaire de Contact
+            </h2>
+            
+            <form method="post" action="#">
+                <fieldset>
+                    <legend>Informations Personnelles</legend>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="nom">Nom *</label>
+                            <input type="text" id="nom" name="nom" placeholder="Ex : DUBOIS" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="prenom">Prénom *</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Ex : Isaac" required />
+                        </div>
+                    </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="email">Adresse Email *</label>
+                            <input type="email" id="email" name="email" placeholder="exemple@domaine.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="+229 XX XX XX XX" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="entreprise">Entreprise / Organisation</label>
+                        <input type="text" id="entreprise" name="entreprise" placeholder="Nom de votre entreprise (facultatif)" />
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Votre Demande</legend>
+                    
+                    <div class="form-group">
+                        <label for="sujet">Sujet de votre message *</label>
+                        <select id="sujet" name="sujet" required>
+                            <option value="">-- Sélectionnez un sujet --</option>
+                            <option value="stage">Opportunité de stage</option>
+                            <option value="emploi">Offre d'emploi</option>
+                            <option value="projet">Collaboration sur un projet</option>
+                            <option value="conseil">Demande de conseil</option>
+                            <option value="autre">Autre demande</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Votre Message *</label>
+                        <textarea id="message" name="message" rows="8" placeholder="Décrivez votre demande, votre projet ou vos questions..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Budget estimé (si applicable)</label>
+                        <input type="text" id="budget" name="budget" placeholder="Ex : 500 000 - 1 000 000 FCFA" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="deadline">Date limite souhaitée</label>
+                        <input type="date" id="deadline" name="deadline" />
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comment m'avez-vous trouvé ?</legend>
+                    <div class="form-group">
+                        <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                            <input type="checkbox" name="source" value="linkedin" style="width: auto;"> LinkedIn
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                            <input type="checkbox" name="source" value="github" style="width: auto;"> GitHub
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                            <input type="checkbox" name="source" value="recommandation" style="width: auto;"> Recommandation
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                            <input type="checkbox" name="source" value="recherche" style="width: auto;"> Recherche Google
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                            <input type="checkbox" name="source" value="autre" style="width: auto;"> Autre
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div style="margin-top: 30px; text-align: center;">
+                    <button type="submit" class="cta-button primary-btn" style="padding: 16px 50px;">
+                        📤 Envoyer le Message
+                    </button>
+                </div>
+
+                <p style="text-align: center; margin-top: 20px; font-size: 14px; color: var(--text-muted);">
+                    * Champs obligatoires - Vos données sont sécurisées et ne seront jamais partagées.
+                </p>
+            </form>
+        </section>
+
+        <!-- Informations Supplémentaires -->
+        <div class="two-col-grid">
+            <section class="card glass-effect">
+                <h3 class="section-title" style="font-size: 24px;">
+                    <span class="title-icon">⏰</span>
+                    Disponibilité
+                </h3>
+                <div class="value-item" style="border: none; padding: 15px 0;">
+                    <span class="value-icon">📅</span>
+                    <div>
+                        <h4>Horaires de Réponse</h4>
+                        <p>Je réponds généralement sous 24-48h aux jours ouvrables</p>
+                    </div>
+                </div>
+                <div class="value-item" style="border: none; padding: 15px 0;">
+                    <span class="value-icon">💼</span>
+                    <div>
+                        <h4>Disponibilité Professionnelle</h4>
+                        <p>Ouvert aux stages, alternances et projets freelance</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card glass-effect">
+                <h3 class="section-title" style="font-size: 24px;">
+                    <span class="title-icon">🌐</span>
+                    Réseaux Sociaux
+                </h3>
+                <div class="value-item" style="border: none; padding: 15px 0;">
+                    <span class="value-icon">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
+                    </span>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <p><a href="https://www.linkedin.com/in/aaron-catraye" target="_blank" class="info-link">linkedin.com/in/aaron-catraye</a></p>
+                    </div>
+                </div>
+                <div class="value-item" style="border: none; padding: 15px 0;">
+                    <span class="value-icon">
+                      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="width: 24px; height: 24px;">
+                    </span>
+                    <div>
+                        <h4>GitHub</h4>
+                        <p><a href="https://github.com/Aaronny0" target="_blank" class="info-link">github.com/Aaronny0</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- FAQ Rapide -->
+        <section class="card glass-effect">
+            <h3 class="section-title">
+                <span class="title-icon">❓</span>
+                Questions Fréquentes
+            </h3>
+            <div class="cv-grid">
+                <div>
+                    <h4 style="color: var(--text-primary); margin-bottom: 10px;">Proposez-vous des services freelance ?</h4>
+                    <p style="color: var(--text-secondary);">
+                        Oui, je suis disponible pour des projets freelance dans le développement web et la 
+                        configuration réseau, selon mes disponibilités académiques.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="color: var(--text-primary); margin-bottom: 10px;">Êtes-vous ouvert à un stage ?</h4>
+                    <p style="color: var(--text-secondary);">
+                        Absolument ! Je recherche activement des opportunités de stage en cybersécurité et 
+                        administration réseau pour enrichir mon expérience professionnelle.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="color: var(--text-primary); margin-bottom: 10px;">Quelle est votre tarification ?</h4>
+                    <p style="color: var(--text-secondary);">
+                        Mes tarifs varient selon la complexité et la durée du projet. Contactez-moi pour 
+                        obtenir un devis personnalisé et discuter de vos besoins spécifiques.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="color: var(--text-primary); margin-bottom: 10px;">Travaillez-vous à distance ?</h4>
+                    <p style="color: var(--text-secondary);">
+                        Oui, je peux travailler à distance pour la plupart des projets. Je suis également 
+                        disponible pour des rencontres en personne à Cotonou et environs.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+  </div>
+</body>
+</html>

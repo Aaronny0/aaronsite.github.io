@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercices - CATRAYE Aaron</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- ===== Sidebar ===== -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="profile-pic-wrapper">
+                    <img src="images/aaron.jpg" alt="Photo de CATRAYE A@ron" class="profile-pic">
+                    <div class="status-indicator"></div>
+                </div>
+                <h2 class="profile-name">CATRAYE A@ron</h2>
+                <p class="profile-tagline">Futur Expert en Cybersécurité</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html"><span class="nav-icon">🏠</span><span class="nav-text">Accueil</span></a></li>
+                    <li><a href="cv.html"><span class="nav-icon">📄</span><span class="nav-text">Mon CV</span></a></li>
+                    <li><a href="portfolio.html"><span class="nav-icon">💼</span><span class="nav-text">Portfolio</span></a></li>
+                    <li><a href="blog.html"><span class="nav-icon">✍️</span><span class="nav-text">Blog Tech</span></a></li>
+                    <li><a href="projets.html"><span class="nav-icon">🚀</span><span class="nav-text">Mes Projets</span></a></li>
+                    <li><a href="competences.html"><span class="nav-icon">⚡</span><span class="nav-text">Compétences</span></a></li>
+                    <li><a href="exercices.html" class="active"><span class="nav-icon">📚</span><span class="nav-text">Exercices</span></a></li>
+                    <li><a href="formulaire.html"><span class="nav-icon">📧</span><span class="nav-text">Contact</span></a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-social">
+                <a href="https://www.linkedin.com/in/aaron-catraye" target="_blank" class="social-link" title="LinkedIn">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
+                </a>
+                <a href="https://github.com/Aaronny0" target="_blank" class="social-link" title="GitHub">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="width: 20px; height: 20px;">
+                </a>
+                <a href="mailto:auristelcatraye@gmail.com" class="social-link" title="Email">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" alt="Gmail" style="width: 20px; height: 20px;">
+                </a>
+            </div>
+            <div class="sidebar-footer">
+                <p>&copy; 2025 - CATRAYE A@ron</p>
+                <p class="footer-sub">Tous droits réservés</p>
+            </div>
+        </aside>
+
+        <!-- ===== Contenu Principal ===== -->
+        <main class="main-content">
+            <div class="particles-bg"></div>
+            
+            <header class="content-header">
+                <h1 class="gradient-text">Exercices & Démonstrations</h1>
+            </header>
+
+
+            <!-- Tableaux de démonstration -->
+            <section class="card glass-effect">
+                <h2 class="section-title">
+                    <span class="title-icon">📊</span>
+                    Tableaux HTML - Démonstrations
+                </h2>
+                
+                <div class="cv-grid">
+                    <!-- Tableau 1 : Colspan -->
+                    <div class="table-wrapper">
+                        <table class="table1">
+                            <caption>Tableau 1</caption>
+                            <tr>
+                                <td colspan="2">RGL 1</td>
+                            </tr>
+                            <tr>
+                                <td class="rgl">RGL2</td>
+                                <td>RGL 3</td>
+                            </tr>
+                        </table>
+                        <p style="font-size: 13px; color: var(--text-muted); margin-top: 10px; text-align: center;">
+                            ✨ Démonstration de colspan="2"
+                        </p>
+                    </div>
+                    
+                    <!-- Tableau 2 : Rowspan -->
+                    <div class="table-wrapper">
+                        <table class="table2">
+                            <caption>Tableau 2</caption>
+                            <tr>
+                                <td rowspan="2">RMS 1</td>
+                                <td>RMS 2</td>
+                            </tr>
+                            <tr>
+                                <td class="rms">RMS 3</td>
+                            </tr>
+                        </table>
+                        <p style="font-size: 13px; color: var(--text-muted); margin-top: 10px; text-align: center;">
+                            ✨ Démonstration de rowspan="2"
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tableau 3 : Fusion Complexe -->
+                <div class="table-wrapper" style="margin-top: 40px;">
+                    <table class="table3">
+                        <caption>Tableau3</caption>
+                        <tr>
+                            <td colspan="3">A</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">B</td>
+                            <td colspan="2">C</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>E</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+
+            <!-- Ressources d'apprentissage -->
+            <section class="card cta-final glass-effect">
+                <h2>Continuer à Apprendre</h2>
+                <p>Ces exercices font partie de mon parcours d'apprentissage continu en développement web. 
+                   Consultez mes autres travaux et projets pour voir l'évolution de mes compétences.</p>
+                <div class="cta-group">
+                    <a href="projets.html" class="cta-button primary-btn">
+                        🚀 Voir mes Projets
+                    </a>
+                    <a href="competences.html" class="cta-button secondary-btn">
+                        ⚡ Mes Compétences
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
